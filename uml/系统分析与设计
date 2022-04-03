@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T05:50:50.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="17.4.0" etag="ljMbij0rDFbT-McPkWAT" type="github"><diagram id="H95eBbMvopWBeIkS5Be_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-03T07:28:44.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="9In8sfXRlC4K34_Jpkq0" version="17.4.0" type="github">
+  <diagram id="H95eBbMvopWBeIkS5Be_" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-3" value="球队" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="50" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-4" value="队名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-3">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-5" value="所在城市" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-3">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-6" value="成立年份" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-3">
+          <mxGeometry y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-7" value="主教练" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-8" value="主教练id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-7">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-9" value="姓名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-7">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-10" value="开始执教年份" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-7">
+          <mxGeometry y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-11" value="球员" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-12" value="球员id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-11">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-13" value="姓名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-11">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-14" value="出生日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-11">
+          <mxGeometry y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-15" value="比赛" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="100" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-16" value="比赛时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-17" value="比赛地点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-18" value="主队" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-25" value="客队" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-26" value="主队得分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcmV09652qkfXrj6Lv3Y-27" value="客队得分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NcmV09652qkfXrj6Lv3Y-15">
+          <mxGeometry y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
